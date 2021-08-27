@@ -1,0 +1,33 @@
+.about{
+    background: url('../../assets/images/aboutpage.jpg');
+    background-size: stretch;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    min-height: 110vh;
+    overflow: hidden;
+    margin: 0;
+    padding:0;
+    font-family: raleway-extra-bold;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    margin-top: 280px;
+    margin-right: 240px;
+    width: 35%;
+}
+.about-content h1{
+    color: #0019FF;
+    font-family: raleway-bold;
+    font-size: 45px;
+}
+
+.about-content p{
+    margin-top: 20px;
+    font-family: raleway-medium;
+    color: gray;
+    font-size: 24px;
+}

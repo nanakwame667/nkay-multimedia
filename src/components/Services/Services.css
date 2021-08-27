@@ -1,0 +1,81 @@
+.services{
+    background: url('../../assets/images/servicepage.jpg');
+    background-size: fill;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding:0;
+    font-family: raleway-extra-bold;
+}
+.all-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.all-cards img{
+    width: 85px;
+    height: 85px;
+}
+.all-cards span{
+    font-size: 20px;
+}
+.all-cards a{
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+}
+
+.two-cards{
+    display: flex;
+    flex-direction: row;
+}
+
+.cards{
+    margin-top: 280px;
+    margin-right: 100px;
+    width: 60%;
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+
+.card-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    background: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+}
+
+.card-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    background: white;
+    margin-left: 65px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+}
+
+.card-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    background: white;
+    /* margin-left: 65px; */
+    margin-top: 45px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+}
